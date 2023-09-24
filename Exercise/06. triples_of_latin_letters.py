@@ -1,7 +1,5 @@
-n = int(input())
-
-for i in range(n):
-    for k in range(n):
-        for j in range(n):
-            
-            print(f"{chr(97 + i)}{chr(97 + j)}{chr(97 + k)}")            
+number_of_symbols = int(input())
+for i in range(number_of_symbols):
+    for k in range(number_of_symbols):
+        for j in range(number_of_symbols):
+            print(f"{chr(97 + i)}{chr(97 + k)}{chr(97 + j)}")            

@@ -10,9 +10,7 @@ for ball in range(1, snowballs + 1):
     snowball_value = int((snowball_weight / snowball_time) ** snowball_quality)
     if new_value < snowball_value:
         new_value = snowball_value
-    if new_quality < snowball_quality:
-        new_quality = snowball_quality       
-    if new_time < snowball_time:
-        new_time = snowball_time 
-new_weight = int((new_value // new_quality) * new_time)             
-print(f"{new_weight} : {new_time} = {new_value} ({new_quality})")
+        new_quality = snowball_quality
+        new_time = snowball_time
+        new_weight = snowball_weight             
+print(f"{new_weight} : {new_time} = {int(new_value)} ({new_quality})")
