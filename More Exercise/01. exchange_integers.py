@@ -9,6 +9,3 @@ temp = a
 a = b
 b = temp
 print(f"After: \n a = {a}\n b = {b}")
-
-
-
